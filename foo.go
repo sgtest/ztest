@@ -4,7 +4,9 @@ import "fmt"
 
 // Foo is a great function.
 func Foo() int {
-	return Bar()
+	fmt.Println(Bar())
+	abc := 123
+	return abc
 }
 
 func abc() {
