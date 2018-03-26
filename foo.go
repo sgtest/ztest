@@ -1,6 +1,9 @@
 package ztest
 
 import "fmt"
+import "github.com/gorilla/mux.git"
+
+var _ = mux.NewRouter
 
 // Foo is a great function.
 func Foo() int {
